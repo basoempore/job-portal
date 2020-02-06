@@ -1,0 +1,394 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- <script src="js/gijgo.min.js"></script> -->
+    <script src="js/range.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/helper.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Job Board</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <style>
+        a.disabled {
+            pointer-events: none;
+            cursor: default;
+        }
+        a.active {
+            border-color: #00D363;
+            color: #00D363;
+        }
+    </style>
+</head>
+<body>
+    <div data-include="header"></div>
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3 id="job_available"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ bradcam_area  -->
+
+    <!-- job_listing_area_start  -->
+    <div class="job_listing_area plus_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <form id="form" action="">
+                    <div class="job_filter white-bg">
+                        <div class="form_inner white-bg">
+                            <h3>Filter</h3>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="single_field">
+                                            <input type="text" id="q" name="q" placeholder="Search keyword">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="single_field">
+                                            <select id="location" name="location" class="wide">
+                                                <option value="">Location</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="single_field" id="container_category">
+                                            <select id="category" name="category" class="wide">
+                                                <option value="">Category</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="single_field">
+                                            <select id="type" name="type" class="wide">
+                                                <option value="">Job type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        <div class="range_wrap hidden">
+                            <label for="amount">Salary range:</label>
+                            <div id="slider-range"></div>
+                            <p>
+                                <input type="text" id="amount" readonly style="border:0; color:#7A838B; font-size: 14px; font-weight:400; width: 100%">
+                            </p>
+                        </div>
+                        <div class="search_btn">
+                            <button class="boxed-btn3 w-100" type="submit">Search</button>
+                            <center style="margin-top: 8px"><a href="jobs.html" >Reset</a></center>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="col-lg-9">
+                    <div class="recent_joblist_wrap">
+                        <div class="recent_joblist white-bg ">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <h4>Job Listing</h4>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="serch_cat d-flex justify-content-end">
+                                        <select id="order_by">
+                                            <option value="recent">Most Recent</option>
+                                            <option value="A-Z">Job Title (A-Z)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="job_lists m-0">
+                        <div class="row" id="vacancies">
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="pagination_wrap">
+                                    <!--<ul>-->
+                                        <!--<li><a href="#" class="disabled"> <i class="ti-angle-left"></i> </a></li>-->
+                                        <!--<li><a href="#" class="disabled" style="border-color: #00D363;color: #00D363;"><span>01</span></a></li>-->
+                                        <!--<li><a href="#"><span>02</span></a></li>-->
+                                        <!--<li><a href="#"> <i class="ti-angle-right"></i> </a></li>-->
+                                    <!--</ul>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- job_listing_area_end  -->
+    <div data-include="footer"></div>
+
+  <script>
+      function isEmpty(obj) {
+          return !obj || Object.keys(obj).length === 0;
+      }
+      $(document).ready(function () {
+          var q        = getUrlParameter('q');
+          var category = getUrlParameter('category');
+          var location = getUrlParameter('location');
+          var type     = getUrlParameter('type');
+          var page     = getUrlParameter('page');
+          var order_by = getUrlParameter('order_by');
+          if(q !== undefined) {
+              q = q.replace(/\+/g,' ');
+              $('#q').val(q);
+          }
+          var param     = {'company':company_code};
+          if(q !== undefined) param['q']               = q;
+          if(location !== undefined) param['location'] = location;
+          if(category !== undefined) param['category'] = category;
+          if(type !== undefined) param['type']         = type;
+          if(page !== undefined) param['page']         = page;
+          if(order_by !== undefined){
+              param['order_by'] = order_by;
+              $('#order_by').val(order_by);
+          }
+
+          $.ajax({
+              url: base_url + "/job-vacancy-search",
+              data:param,
+              type: "GET",
+              dataType: "JSON",
+              success: function (data) {
+                  console.log(data);
+                  data = data.data;
+                  var html = '';
+                  if(data.data.length > 0) {
+                      for (var i = 0; i < data.data.length; i++) {
+                          var vacancy = data.data[i];
+                          html += '<div class="col-lg-12 col-md-12">' +
+                              '                                <div class="single_jobs white-bg d-flex justify-content-between">' +
+                              '                                    <div class="jobs_left d-flex align-items-center">' +
+                              '                                        <div class="thumb">' +
+                              '                                            <img src="img/svg_icon/1.svg" alt="">' +
+                              '                                        </div>' +
+                              '                                        <div class="jobs_conetent">' +
+                              '                                            <a href="job_details.html?detail=' + vacancy.id + '"><h4>' + vacancy.recruitment_name + '</h4></a>' +
+                              '                                            <div class="links_locat d-flex align-items-center">' +
+                              '                                                <div class="location">' +
+                              '                                                    <p> <i class="fa fa-map-marker"></i> ' + vacancy.branch + '</p>' +
+                              '                                                </div>' +
+                              '                                                <div class="location">' +
+                              '                                                    <p> <i class="fa fa-clock-o"></i>' + vacancy.recruitment_type + '</p>' +
+                              '                                                </div>' +
+                              '                                            </div>' +
+                              '                                        </div>' +
+                              '                                    </div>' +
+                              '                                    <div class="jobs_right">' +
+                              '                                        <div class="apply_now">' +
+                              '                                            <a class="heart_mark" href="#"> <i class="fa fa-heart"></i> </a>' +
+                              '                                            <a href="job_details.html?detail=' + vacancy.id + '" class="boxed-btn3">Apply Now</a>' +
+                              '                                        </div>' +
+                              '                                        <div class="date">' +
+                              '                                            <p>Published on: ' + vacancy.posting_date + '</p>' +
+                              '                                        </div>' +
+                              '                                    </div>' +
+                              '                                </div>' +
+                              '                            </div>';
+                      }
+
+                      var pagination = '<ul>\n';
+                      if(data.current_page == 1){
+                          pagination += '<li><a href="#" class="disabled"> <i class="ti-angle-left"></i> </a></li>\n';
+
+                      }
+                      else{
+                          param['page'] = data.current_page-1;
+                          pagination += '<li><a href="jobs.html?'+$.param(param)+'"> <i class="ti-angle-left"></i> </a></li>\n';
+                      }
+
+                      for(var i = 1; i <= data.last_page; i++){
+                          if((data.current_page==1 && i <= data.current_page+2) || (data.current_page==data.last_page && i >= data.current_page-2) || (i >= data.current_page-1 && i <= data.current_page+1)) {
+                              if(i==data.current_page) {
+                                  pagination += '<li><a class="disabled" style="border-color: #00D363;color: #00D363;"><span>' + i + '</span></a></li>';
+                              }else {
+                                  param['page'] = i;
+                                  pagination += '<li><a href="jobs.html?'+$.param(param)+'"><span>' + i + '</span></a></li>';
+                              }
+                          }
+                      }
+
+                      if(data.current_page == data.last_page){
+                          pagination += '<li><a href="#" class="disabled"> <i class="ti-angle-right"></i> </a></li>\n';
+                      }
+                      else{
+                          param['page'] = data.current_page+1;
+                          pagination += '<li><a href="jobs.html?'+$.param(param)+'"> <i class="ti-angle-right"></i> </a></li>\n';
+                      }
+                      // pagination += '<li><a href="#" class="disabled"> <i class="ti-angle-left"></i> </a></li>' +
+                      //     '                                        <li><a href="#"> <i class="ti-angle-right"></i> </a></li>'
+                      pagination += '</ul>';
+
+
+                      $('.pagination_wrap').html(pagination);
+
+                  }else{
+                      html = "<div class='col-md-12 text-center'><p>No Job Found</p></div>";
+                  }
+
+                  $('#vacancies').html(html);
+
+              },
+              error: function (jqXHR, textStatus, errorThrown) {
+                  console.log(jqXHR);
+                  console.log(textStatus);
+                  console.log(errorThrown);
+                  $("#btn_apply").attr("disabled", false);
+              }
+          });
+          $.ajax({
+              url: base_url + "/vacancy-param",
+              data:{'company':company_code},
+              type: "GET",
+              dataType: "JSON",
+              success: function (data) {
+                  console.log(data);
+                  data=data.data;
+                  var html_category = '<option value="">Category</option>';
+                  var html_location = '<option value="">Location</option>';
+                  var html_type = '<option value="">Job Type</option>';
+                  for(var i = 0; i < data.category.length; i++){
+                      $('#category').append($('<option>').val(data.category[i].id).text(data.category[i].name))
+                      html_category +='<option value="'+data.category[i].id+'">'+data.category[i].name+'</option>';
+                  }
+                  for(var i = 0; i < data.location.length; i++){
+                      html_location +='<option value="'+data.location[i].id+'">'+data.location[i].name+'</option>';
+                  }
+                  for(var i = 0; i < data.type.length; i++){
+                      html_type +='<option value="'+data.type[i].id+'">'+data.type[i].name+'</option>';
+                  }
+                  // $('#container_category').html('<select id="category" name="category">'+html_category+'</select>');
+
+                  $('#category').html(html_category);
+                  $('#location').html(html_location);
+                  $('#type').html(html_type);
+
+                  if(category !== undefined) $('#category').val(category);
+                  if(location !== undefined) $('#location').val(location);
+                  if(type !== undefined) $('#type').val(type);
+
+
+                  $('select').niceSelect('update');
+                  $('#job_available').html(data.job_available + " Jobs Available");
+
+              },
+              error: function (jqXHR, textStatus, errorThrown) {
+                  console.log(jqXHR);
+                  console.log(textStatus);
+                  console.log(errorThrown);
+                  $("#btn_apply").attr("disabled", false);
+              }
+          });
+            $('#form').on('submit',function () {
+
+                var q         = $('#q').val().trim();
+                var location  = $('#location').val();
+                var category  = $('#category').val();
+                var type      = $('#type').val();
+                var order_by  = $('#order_by').val();
+                var param     = {};
+                if(q!='') param['q']               = q;
+                if(location!='') param['location'] = location;
+                if(category!='') param['category'] = category;
+                if(type!='') param['type']         = type;
+                if(order_by!='') param['order_by'] = order_by;
+                console.log(param);
+                window.location.href = "jobs.html?"+$.param(param);
+                return false;
+            });
+
+          $('#order_by').on('change',function () {
+              $("#form").submit();
+          });
+      });
+  </script>
+	<script>
+        $( function() {
+            $( "#slider-range" ).slider({
+                range: true,
+                min: 0,
+                max: 50000,
+                slide: function( event, ui ) {
+                    $( "#amount" ).val( "IDR " + ui.values[ 0 ] + "K - IDR " + ui.values[ 1 ] +"K/Year" );
+                }
+            });
+            $( "#amount" ).val( "IDR " + $( "#slider-range" ).slider( "values", 0 ) +
+                "K - IDR " + $( "#slider-range" ).slider( "values", 1 ) + "K/ Year");
+        } );
+        </script>
+
+</body>
+
+</html>

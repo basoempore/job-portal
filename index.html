@@ -1,0 +1,617 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/helper.js"></script>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Job Board</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- link that opens popup -->
+    <!-- JS here -->
+</head>
+<body>
+    <div data-include="header"></div>
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="slider_text">
+                            <h5 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s" id="job_available"></h5>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Find your Dream Job</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">We provide online instant cash loans with quick approval that suit your term length</p>
+                            <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                <a class="boxed-btn3" onclick="scrolltobottom()">Find Jobs</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ilstration_img wow fadeInRight d-none d-lg-block text-right" data-wow-duration="1s" data-wow-delay=".2s">
+            <img src="img/banner/illustration.png" alt="">
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- catagory_area -->
+    <div class="catagory_area">
+        <div class="container">
+            <form id="form">
+                <div class="row cat_search">
+
+                        <div class="col-md-3">
+                            <div class="single_input">
+                                <input id="q" type="text" placeholder="Search keyword">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="single_input">
+                                <select id="location" class="wide">
+                                    <option value="">Location</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="single_input">
+                                <select id="category" class="wide">
+                                    <option value="">Category</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="single_input">
+                                <select id="type" class="wide">
+                                    <option value="">Job Type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="job_btn">
+                                <button type="submit" class="boxed-btn3">Find Job</button>
+                            </div>
+                        </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="popular_search d-flex align-items-center">
+                        <span>Popular Search:</span>
+                        <ul id="popular_search">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ catagory_area -->
+
+     <!--popular_catagory_area_start  -->
+    <!--<div class="popular_catagory_area">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-12">-->
+                    <!--<div class="section_title mb-40">-->
+                        <!--<h3>Popolar Categories</h3>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Design & Creative</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Marketing</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Telemarketing</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Software & Web</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Administration</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Teaching & Education</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Engineering</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_catagory">-->
+                        <!--<a href="jobs.html"><h4>Garments / Textile</h4></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!-- popular_catagory_area_end  -->
+
+    <!-- job_listing_area_start  -->
+
+    <div class="job_listing_area">
+        <div class="container" style="padding-top: 80px">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section_title">
+                        <h3>Job Listing</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="brouse_job text-right">
+                        <a href="jobs.html" class="boxed-btn4">Browse More Job</a>
+                    </div>
+                </div>
+            </div>
+            <div class="job_lists">
+                <div class="row" id="vacancies">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- job_listing_area_end  -->
+
+    <!-- featured_candidates_area_start  -->
+    <div class="featured_candidates_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-40">
+                        <h3>Featured Candidates</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="candidate_active owl-carousel">
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/1.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/2.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/3.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/4.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/5.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/6.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/7.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/8.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/9.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/9.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/10.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/3.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/4.png" alt="">
+                            </div>
+                            <a href="#"><h4>Markary Jondon</h4></a>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured_candidates_area_end  -->
+
+    <!--<div class="top_companies_area">-->
+        <!--<div class="container">-->
+            <!--<div class="row align-items-center mb-40">-->
+                <!--<div class="col-lg-6 col-md-6">-->
+                    <!--<div class="section_title">-->
+                        <!--<h3>Top Companies</h3>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-6 col-md-6">-->
+                    <!--<div class="brouse_job text-right">-->
+                        <!--<a href="jobs.html" class="boxed-btn4">Browse More Job</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_company">-->
+                        <!--<div class="thumb">-->
+                            <!--<img src="img/svg_icon/5.svg" alt="">-->
+                        <!--</div>-->
+                        <!--<a href="jobs.html"><h3>Snack Studio</h3></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_company">-->
+                        <!--<div class="thumb">-->
+                            <!--<img src="img/svg_icon/4.svg" alt="">-->
+                        <!--</div>-->
+                        <!--<a href="jobs.html"><h3>Snack Studio</h3></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_company">-->
+                        <!--<div class="thumb">-->
+                            <!--<img src="img/svg_icon/3.svg" alt="">-->
+                        <!--</div>-->
+                        <!--<a href="jobs.html"><h3>Snack Studio</h3></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-xl-3 col-md-6">-->
+                    <!--<div class="single_company">-->
+                        <!--<div class="thumb">-->
+                            <!--<img src="img/svg_icon/1.svg" alt="">-->
+                        <!--</div>-->
+                        <!--<a href="jobs.html"><h3>Snack Studio</h3></a>-->
+                        <!--<p> <span>50</span> Available position</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!-- job_searcing_wrap  -->
+    <!--<div class="job_searcing_wrap overlay">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-5 offset-lg-1 col-md-6">-->
+                    <!--<div class="searching_text">-->
+                        <!--<h3>Looking for a Job?</h3>-->
+                        <!--<p>We provide online instant cash loans with quick approval </p>-->
+                        <!--<a href="#" class="boxed-btn3">Browse Job</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-5 offset-lg-1 col-md-6">-->
+                    <!--<div class="searching_text">-->
+                        <!--<h3>Looking for a Expert?</h3>-->
+                        <!--<p>We provide online instant cash loans with quick approval </p>-->
+                        <!--<a href="#" class="boxed-btn3">Sign Up</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!-- job_searcing_wrap end  -->
+
+    <!-- testimonial_area  -->
+    <div class="testimonial_area  ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-40">
+                        <h3>Testimonial</h3>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel" id="testimonials">
+                        
+                        <!--<div class="single_carousel">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-lg-11">-->
+                                    <!--<div class="single_testmonial d-flex align-items-center">-->
+                                        <!--<div class="thumb">-->
+                                            <!--<img src="img/testmonial/author.png" alt="">-->
+                                            <!--<div class="quote_icon">-->
+                                                <!--<i class="Flaticon flaticon-quote"></i>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="info">-->
+                                            <!--<p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>-->
+                                            <!--<span>- Micky Mouse</span>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /testimonial_area  -->
+
+    <div data-include="footer"></div>
+    <script>
+
+        function scrolltobottom()
+        {
+
+            $('html, body').animate({
+                scrollTop: $(".job_listing_area").offset().top-80
+            }, 1000);
+        }
+
+        for(var i = 0; i < popular_searches.length; i++){
+            var search = "searchQuery('"+popular_searches[i]+"')";
+            $('#popular_search').append('<li><a href="#" onclick="'+search+'">'+popular_searches[i]+'</a></li>');
+        }
+        
+        
+        for (i = 0; i < testimonials.length; i++){
+            $('#testimonials').append('<div class="single_carousel">' +
+                '                            <div class="row">' +
+                '                                <div class="col-lg-11">' +
+                '                                    <div class="single_testmonial d-flex align-items-center">' +
+                '                                        <div class="thumb">' +
+                '                                            <img src="'+testimonials[i].photo+'" alt="" style="width: 228px;height: 228px;object-fit: cover;">' +
+                '                                            <div class="quote_icon">' +
+                '                                                <i class="Flaticon flaticon-quote"></i>' +
+                '                                            </div>' +
+                '                                        </div>' +
+                '                                        <div class="info">' +
+                '                                            <p>"'+testimonials[i].testimony+'</p>' +
+                '                                            <span>- '+testimonials[i].name+'</span>' +
+                '                                        </div>' +
+                '                                    </div>' +
+                '                                </div>' +
+                '                            </div>' +
+                '                        </div>')
+        }
+
+
+
+        $('#form').on('submit',function () {
+
+            var q         = $('#q').val().trim();
+            var location  = $('#location').val();
+            var category  = $('#category').val();
+            var type      = $('#type').val();
+            var param     = {};
+            if(q!='') param['q']               = q;
+            if(location!='') param['location'] = location;
+            if(category!='') param['category'] = category;
+            if(type!='') param['type']         = type;
+
+            window.location.href = "jobs.html?"+$.param(param);
+            return false;
+        });
+
+
+        $(document).ready(function () {
+            $.ajax({
+                url: base_url + "/vacancy-param",
+                data:{'company':company_code},
+                type: "GET",
+                dataType: "JSON",
+                success: function (data) {
+                    console.log(data);
+                    data=data.data;
+                    var html_category = '<option value="">Category</option>';
+                    var html_location = '<option value="">Location</option>';
+                    var html_type = '<option value="">Job Type</option>';
+                    for(var i = 0; i < data.category.length; i++){
+                        $('#category').append($('<option>').val(data.category[i].id).text(data.category[i].name))
+                        html_category +='<option value="'+data.category[i].id+'">'+data.category[i].name+'</option>';
+                    }
+                    for(var i = 0; i < data.location.length; i++){
+                        html_location +='<option value="'+data.location[i].id+'">'+data.location[i].name+'</option>';
+                    }
+                    for(var i = 0; i < data.type.length; i++){
+                        html_type +='<option value="'+data.type[i].id+'">'+data.type[i].name+'</option>';
+                    }
+                    // $('#container_category').html('<select id="category" name="category">'+html_category+'</select>');
+
+                    $('#category').html(html_category);
+                    $('#location').html(html_location);
+                    $('#type').html(html_type);
+
+
+
+                    $('select').niceSelect('update');
+                    $('#job_available').html(data.job_available + " Jobs Available");
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(jqXHR);
+                    console.log(textStatus);
+                    console.log(errorThrown);
+                    $("#btn_apply").attr("disabled", false);
+                }
+            });
+            $.ajax({
+                url: base_url+"/job-vacancy-list",
+                data: {'company':company_code,'limit':5},
+                type: "GET",
+                dataType: "JSON",
+                success: function (data) {
+                    console.log(data);
+                    var html = '';
+                    for(var i = 0; i < data.data.length; i++){
+                        var vacancy = data.data[i];
+                        html += '<div class="col-lg-12 col-md-12">' +
+                            '                                <div class="single_jobs white-bg d-flex justify-content-between">' +
+                            '                                    <div class="jobs_left d-flex align-items-center">' +
+                            '                                        <div class="thumb">' +
+                            '                                            <img src="img/svg_icon/1.svg" alt="">' +
+                            '                                        </div>' +
+                            '                                        <div class="jobs_conetent">' +
+                            '                                            <a href="job_details.html?detail='+vacancy.id+'"><h4>' + vacancy.recruitment_name + '</h4></a>' +
+                            '                                            <div class="links_locat d-flex align-items-center">' +
+                            '                                                <div class="location">' +
+                            '                                                    <p> <i class="fa fa-map-marker"></i> ' + vacancy.branch + '</p>' +
+                            '                                                </div>' +
+                            '                                                <div class="location">' +
+                            '                                                    <p> <i class="fa fa-clock-o"></i>' + vacancy.recruitment_type + '</p>' +
+                            '                                                </div>' +
+                            '                                            </div>' +
+                            '                                        </div>' +
+                            '                                    </div>' +
+                            '                                    <div class="jobs_right">' +
+                            '                                        <div class="apply_now">' +
+                            '                                            <a class="heart_mark" href="#"> <i class="fa fa-heart"></i> </a>' +
+                            '                                            <a href="job_details.html?detail='+vacancy.id+'" class="boxed-btn3">Apply Now</a>' +
+                            '                                        </div>' +
+                            '                                        <div class="date">' +
+                            '                                            <p>Published on: ' + vacancy.posting_date + '</p>' +
+                            '                                        </div>' +
+                            '                                    </div>' +
+                            '                                </div>' +
+                            '                            </div>';
+                    }
+                    $('#vacancies').html(html);
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(jqXHR);
+                    console.log(textStatus);
+                    console.log(errorThrown);
+                    $("#btn_apply").attr("disabled", false);
+                }
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>
