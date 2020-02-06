@@ -126,7 +126,7 @@
 
                             </div>
                         </div>
-                        <div class="single_wrap hidden">
+                        <div class="single_wrap">
                             <h4>Benefits</h4>
                             <div id="benefits">
 
@@ -305,6 +305,7 @@
                     $('.job_salary').html(data.min_salary + ' - ' + data.max_salary);
                     $('#job_desc').html(data.job_desc);
                     $('#job_requirement').html(data.job_requirement);
+                    $('#benefits').html(data.benefit);
                     if (data.branch.latitude != null && data.branch.longitude != null)
                         initMap(parseFloat(data.branch.latitude), parseFloat(data.branch.longitude));
                 } else {
