@@ -70,8 +70,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="85" column="67" selection-start-line="85" selection-start-column="67" selection-end-line="85" selection-end-column="67" />
+            <state relative-caret-position="323">
+              <caret line="74" column="26" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="74" selection-end-column="26" />
+              <folding>
+                <marker date="1581404758064" expanded="true" signature="2786:3582" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alert</find>
       <find>job_location</find>
       <find>company_logo</find>
       <find>popular search</find>
@@ -122,6 +124,7 @@
       <find>sweet</find>
       <find>form_move</find>
       <find>job_requirement</find>
+      <find>subscr</find>
     </findStrings>
     <replaceStrings>
       <replace>Sign Up</replace>
@@ -230,18 +233,19 @@
       <workItem from="1580785597928" duration="11560000" />
       <workItem from="1580958147817" duration="4557000" />
       <workItem from="1581044171258" duration="509000" />
-      <workItem from="1581303980497" duration="1091000" />
+      <workItem from="1581303980497" duration="1391000" />
+      <workItem from="1581404735471" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49485000" />
+    <option name="totallyTimeSpent" value="49808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,6 +431,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/job_details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4605">
@@ -465,17 +476,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="85" column="67" selection-start-line="85" selection-start-column="67" selection-end-line="85" selection-end-column="67" />
+        <state relative-caret-position="323">
+          <caret line="74" column="26" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="74" selection-end-column="26" />
+          <folding>
+            <marker date="1581404758064" expanded="true" signature="2786:3582" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

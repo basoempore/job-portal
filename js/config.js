@@ -1,4 +1,4 @@
-var base_url = 'http://192.168.112.92:8888/api';
+var base_url = 'http://192.168.112.89:8888/api';
 var company_code = 'javandra';
 var company_logo = 'https://www.empore.co.id/images/empore-2.png';
 var popular_searches = ['Software Engineer', 'IT', 'Human Resource', 'Marketing', 'Sales', 'Design','Project Manager'];
