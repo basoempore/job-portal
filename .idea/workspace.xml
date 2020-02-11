@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf23125-0195-4c8c-ab59-4c5c86ef21e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconAchievements.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconAchievements.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconEducation&amp;Training.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconEducation&amp;Training.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconEmploymentHistory&amp;WorkExperience.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconEmploymentHistory&amp;WorkExperience.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconInterests.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconInterests.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconLanguageProficiency.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconLanguageProficiency.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconObjective.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconObjective.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconPersonalDetails.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconPersonalDetails.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tips/IconReferences.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconReferences.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +49,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="-2833">
               <caret line="73" column="23" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -257,16 +264,15 @@
       <workItem from="1580958147817" duration="4557000" />
       <workItem from="1581044171258" duration="509000" />
       <workItem from="1581303980497" duration="1391000" />
-      <workItem from="1581404735471" duration="1665000" />
+      <workItem from="1581404735471" duration="1993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51450000" />
+    <option name="totallyTimeSpent" value="51778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,7 +287,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.373461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -507,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="-2833">
           <caret line="73" column="23" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
