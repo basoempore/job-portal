@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf23125-0195-4c8c-ab59-4c5c86ef21e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/tips/IconAchievements.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconAchievements.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconEducation&amp;Training.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconEducation&amp;Training.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconEmploymentHistory&amp;WorkExperience.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconEmploymentHistory&amp;WorkExperience.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconInterests.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconInterests.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconLanguageProficiency.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconLanguageProficiency.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconObjective.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconObjective.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconPersonalDetails.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconPersonalDetails.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tips/IconReferences.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tips/IconReferences.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            <state relative-caret-position="222">
+              <caret line="15" column="226" selection-start-line="15" selection-start-column="226" selection-end-line="15" selection-end-column="226" />
             </state>
           </provider>
         </entry>
@@ -49,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2833">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="163">
+              <caret line="88" column="112" selection-start-line="88" selection-start-column="112" selection-end-line="88" selection-end-column="112" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -124,8 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>order_by_form</find>
-      <find>order_by_f</find>
       <find>1</find>
       <find>order_by</find>
       <find>popular</find>
@@ -154,6 +146,8 @@
       <find>single-can</find>
       <find>single</find>
       <find>educati</find>
+      <find>1.</find>
+      <find>find your</find>
     </findStrings>
     <replaceStrings>
       <replace>Sign Up</replace>
@@ -186,9 +180,9 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/js/contact.js" />
         <option value="$PROJECT_DIR$/job_details.html" />
-        <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -264,15 +258,16 @@
       <workItem from="1580958147817" duration="4557000" />
       <workItem from="1581044171258" duration="509000" />
       <workItem from="1581303980497" duration="1391000" />
-      <workItem from="1581404735471" duration="1993000" />
+      <workItem from="1581404735471" duration="2457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51778000" />
+    <option name="totallyTimeSpent" value="52242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -511,10 +499,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="226" selection-start-line="15" selection-start-column="226" selection-end-line="15" selection-end-column="226" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2833">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="163">
+          <caret line="88" column="112" selection-start-line="88" selection-start-column="112" selection-end-line="88" selection-end-column="112" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />

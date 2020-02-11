@@ -13,7 +13,7 @@ var testimonials = [
         testimony:'If you want a place only for working, it\'s not for you, but if you want a place to explore new things and face interesting challenges everyday, go for it'
     },{
         name:'Baso Ahmad Muflih',
-        photo:'https://cdn2.tstatic.net/tribunnews/foto/bank/images/david-beckham_20180822_024448.jpg',
+        photo:'https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/67644063_1515645855253955_8678855056570712064_o.jpg?_nc_cat=111&_nc_ohc=s-3pe9BtHtsAX8VwHqj&_nc_ht=scontent-sin6-1.xx&oh=6241620c002b21d91753a0ca7108ca08&oe=5EC78564',
         testimony:'If you want to go on an adventure where you’ll build countries and solve challenging problems, Empore may be for you.'
     }
 ]
