@@ -31,6 +31,7 @@ var footer_links = [
 var social_medias = {
     facebook:'https://www.facebook.com/empore.hezertama.7',
     twitter:'#',
+    linkedin:'https://www.linkedin.com/company/pt-empore-hezer-tama/',
     instagram:'https://www.instagram.com/empore.indonesia/',
     google_plus:'#'
 };
