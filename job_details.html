@@ -296,7 +296,8 @@
                 if (data != null) {
                     $('.job_position').html(data.position);
                     $('.job_location').html(data.branch.name);
-                    $('.job_category').html(data.category.name);
+                    if(data.category!=null)
+                        $('.job_category').html(data.category.name);
                     $('.job_type').html(data.recruitment_type);
                     $('.job_posting_date').html(data.posting_date);
                     if (data.external.show_salary_range == '0') {
